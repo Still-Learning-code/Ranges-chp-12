@@ -1,0 +1,27 @@
+//chp 12 ranges set of Sequential values
+fun main(args: Array<String>) {
+
+var range1 = 1..10
+  for (item in range1) {
+   println(item)
+  }
+    // for (i in 1..10 ) {
+        // println(i)
+     //}
+
+      val numbers = (1..5).toList() //range + collections
+     numbers.filter{it in 2..4}
+     println(numbers)
+
+     for (item in 1..15){
+         println(item)
+     }
+
+     for (item in 1..15 step 2){
+        println(item)
+     }
+     for (i in 15 downTo 1 step 2){
+         println(i)
+     }
+
+ }
